@@ -1,2 +1,1 @@
-# Code Surfergit statius
-git status
+# Code Surfer
