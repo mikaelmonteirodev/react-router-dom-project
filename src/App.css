@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header{
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+  align-items: center;
+}
+
+header ul{
+  display: flex;
+  gap: 26px;
+  font-weight: bold;
+}
+
+header a{
+  display: block;
+  line-height: 46px;
+  margin: 10px 0;
+  color: #FFF;
+}
