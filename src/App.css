@@ -27,3 +27,56 @@ header a{
   margin: 10px 0;
   color: #FFF;
 }
+
+.centro{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.centro.dark{
+  background-color: #242424;
+}
+
+.switch{
+  line-height: 40px;
+  background-color: black;
+  color: white;
+  padding: 0 26px;
+  border-radius: 8px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  transition-duration: 300ms;
+}
+
+.dark + .switch{
+  background-color: white;
+  color: black;
+}
+
+button{
+  background-color: blueviolet !important;
+  padding: 0 26px;
+  border-radius: 8px;
+  color: #FFF;
+  border: 0;
+  line-height: 46px;
+}
+
+h1{
+  text-align: center;
+}
+
+.sanfonas{
+  display: flex;
+  gap: 50px
+}
+
+.sanfonas li{
+  flex: 1;
+}
