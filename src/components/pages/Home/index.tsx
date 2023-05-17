@@ -9,8 +9,12 @@ export const Home = () => {
         setContador(contador -1)
     }
 
+    React.useEffect(() => {
+        console.log('useEffect foi chamado!');        
+    }, [darkMode])
+
     return (
-        <>    
+        <>
             <div className={darkMode ? 'centro dark' : 'centro'}>
                 <button onClick={() => setContador(contador + 1)}>Incrementar</button>
                 <h1>Contagem: ({contador})</h1>
