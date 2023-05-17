@@ -3,7 +3,7 @@ import { Accordion } from "../../Accordion"
 export const Sobre = () => {
     return (
         <>
-            <h1>Sobre</h1>
+            <h1 className="h1sobre">Sobre</h1>
             <ul className="sanfonas">
                 <li>
                     <Accordion />

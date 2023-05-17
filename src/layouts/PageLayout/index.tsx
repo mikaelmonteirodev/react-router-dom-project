@@ -6,6 +6,8 @@ export const PageLayout = () => {
         <>
             <Header />
             <Outlet />
+            <Outlet />
+
         </>
 
     )
